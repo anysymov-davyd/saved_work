@@ -1,0 +1,23 @@
+.button{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    font-family: Light;
+    letter-spacing: 1.5px;
+    padding: 12px 24px;
+    border: 0;
+    background-color: #83ffc3;
+    line-height: 200%;
+    cursor: pointer;
+    transition: .2s;
+    user-select: none;
+    outline: none;
+    white-space: nowrap;
+}
+
+.button:hover{
+    background-color: #65d79b;
+}
+
+.button:active{
+    background-color: #3daf73;
+}

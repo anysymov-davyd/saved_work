@@ -1,0 +1,248 @@
+@media (max-width: 640px) {
+    h1 {
+        font-size: 22px;
+        letter-spacing: 4px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+    div.navigation__container {
+        margin: 24px 24px 0;
+    }
+    div.pages {
+        margin: 24px;
+    }
+    button.button {
+        font-size: 10px;
+        padding: 8px 10px;
+        margin-top: 40px;
+    }
+    div.services__icon {
+        width: 30px;
+        height: 20px;
+    }
+    div.home__container {
+        height: calc(100vh - 180px);
+    }
+    div.social-media-item {
+        width: 12px;
+        height: 12px;
+        background-size: 14px;
+        padding: 9px;
+    }
+    div.social-medias {
+        gap: 0;
+    }
+    a.caps1 {
+        font-size: 18px;
+    }
+    div.navigation__sidebar-content {
+        padding: 24px;
+    }
+    div.navigation__container {
+        width: calc(100vw - 48px);
+        top: 0;
+    }
+    div.pages {
+        width: calc(100vw - 48px);
+    }
+    svg.arrow-icon {
+        width: 13px;
+        height: 10px;
+    }
+    div.navigation__menu-button {
+        width: 30px;
+        height: 20px;
+    }
+    div.pages__item {
+        margin-top: 100px;
+    }
+    div.services__grid {
+        flex-direction: column;
+    }
+    div.services__item {
+        gap: 24px;
+    }
+    div.pages__item {
+        max-height: calc(100vh - 160px);
+        overflow-y: auto;
+    }
+    button.button {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 880px) {
+    .hint {
+        display: none;
+    }
+    div.navigation__dropdown {
+        margin-bottom: auto;
+    }
+}
+
+@media (max-width: 880px) {
+    div.navigation__options {
+        top: 40px;
+    }
+    div.navigation__pages,
+    div.about__languages,
+    div.works__header p,
+    a.works__item-title:not(.works__no-work),
+    a.works__item-link {
+        display: none;
+    }
+    div.navigation__sidebar, div.navigation__menu-button {
+        display: block;
+    }
+    div.about__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    div.about__second-column,
+    div.services__container,
+    div.works__container {
+        gap: 60px;
+    }
+    div.pages__item {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    div.works__header {
+        align-items: center;
+        justify-content: space-between;
+    }
+    div.works__item-container {
+        background-color: transparent;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 880px) {
+    h1 {
+        font-size: 48px;
+        letter-spacing: 6px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .caps1 {
+        font-size: 16px;
+    }
+    div.navigation__container {
+        margin: 48px 48px 0;
+    }
+    div.pages__item {
+        margin-top: 150px;
+        max-height: calc(100vh - 200px);
+    }
+    div.home__container {
+        height: calc(100vh - 200px);
+    }
+    div.home__container {
+        gap: 6px;
+    }
+    div.services__container {
+        overflow-y: auto;
+        gap: 80px;
+    }
+    div.services__header {
+        gap: 12px;
+    }
+    div.services__grid {
+        gap: 60px;
+    }
+    div.services__icon {
+        width: 40px;
+        height: 20px;
+    }
+    div.about__second-column, div.services__item {
+        max-width: 100%;
+    }
+    div.services__item {
+        gap: 24px;
+    }
+    button.button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    div.works__item-container {
+        background-color: transparent;
+    }
+    div.works__item-container {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 880px) and (max-width: 1280px) {
+    h1 {
+        font-size: 64px;
+    }
+    h2 {
+        font-size: 53px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .container .caps2 {
+        font-size: 12px;
+    }
+    .navigation__dot.caps1 {
+        margin-left: 12px;
+    }
+    .navigation__container .navigation__pages {
+        gap: 12px;
+    }
+    .navigation__container .caps1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 12px;    
+    }
+    button.button{
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+    div.services__icon.layout__icon {
+        width: 50px;
+        height: 33px;
+    }
+    div.services__item {
+        gap: 32px;
+    }
+    div.works__container {
+        gap: 80px;
+    }
+    div.social-media-item {
+        width: 20px;
+        height: 20px;
+        background-size: 15px;
+    }
+    div.pages__item {
+        margin-top: 200px;
+    }
+    div.works__item {
+        height: 220px;
+    }
+    div.services__container {
+        gap: 80px;
+    }
+    .pages .home__container {
+        height: calc(100vh - 250px);
+    }
+    .container .navigation__container {
+        margin: 48px 48px 0;
+    }
+}

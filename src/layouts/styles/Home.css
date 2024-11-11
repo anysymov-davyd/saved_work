@@ -1,0 +1,7 @@
+.home__container{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 16px;
+    height: calc(100vh - 396px);
+}
